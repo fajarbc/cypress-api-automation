@@ -1,10 +1,35 @@
 {
-  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "npx cypress open"
   },
+  "name": "cypress-api-automation",
+  "description": "API Automation with Cypress.\r Include: JSON Schema Validation using [Ajv](https://ajv.js.org).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fajarbc/cypress-api-automation.git"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "automation",
+    "api automation",
+    "cypress api automation"
+  ],
+  "author": "fajarbc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fajarbc/cypress-api-automation/issues"
+  },
+  "homepage": "https://github.com/fajarbc/cypress-api-automation#readme",
   "dependencies": {
-    "ajv": "^8.11.0",
-    "node-fetch": "^3.2.10"
+    "ajv": "^8.11.0"
+  },
+  "devDependencies": {
+    "cypress": "^10.7.0"
   }
 }
