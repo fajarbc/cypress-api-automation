@@ -12,15 +12,15 @@ Before you click generate, make sure the  **Array rules** is **List Validation**
 ```
 "$schema": "http://json-schema.org/draft-04/schema#",
 ```
-<br>
-# Install
+
+## Install
 ```
 npm install
 ```
 *Note*: It may take a while if you havo no Cypress installed in your machine<br><br>
 
 
-# Run
+## Run
 ```
 npm start
 ```
